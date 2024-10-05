@@ -41,6 +41,8 @@ dependencies:
   flutter_screenutil: ^5.9.3
   # automatically resizes text
   auto_size_text: ^3.0.0
+  # to use fonts from fonts.google.com
+  google_fonts: ^6.1.0
 
 dev_dependencies:
   flutter_test:
