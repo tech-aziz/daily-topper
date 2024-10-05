@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:daily_topper/app/modules/home/view/home_view.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../config/components/text_style.dart';
 import '../../../config/style/app_string.dart';
 
@@ -46,7 +47,7 @@ class _SplashViewState extends State<SplashView> {
             children: [
               const SizedBox(),
               Text(AppString.appName, style: textStyle(
-                  fontSize: 30, color: const Color(0xffFBFBFB))
+                  fontSize: 22.sp, color: const Color(0xffFBFBFB))
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -55,7 +56,7 @@ class _SplashViewState extends State<SplashView> {
                     padding: const EdgeInsets.only(bottom: 20),
                     child: AutoSizeText(
                       AppString.companyTag,
-                      style: textStyle(color: Colors.white, fontSize: 10),
+                      style: textStyle(color: Colors.white, fontSize: 10.sp),
                     ),
                   ),
                 ],
