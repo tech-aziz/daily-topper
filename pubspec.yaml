@@ -35,6 +35,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  # for route & state management
+  get: ^4.6.6
+  # plugin for adapting screen and font size
+  flutter_screenutil: ^5.9.3
+  # automatically resizes text
+  auto_size_text: ^3.0.0
 
 dev_dependencies:
   flutter_test:
