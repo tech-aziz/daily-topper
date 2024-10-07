@@ -6,13 +6,6 @@ import 'package:get/get.dart';
 
 void main() {
 
-  // // Set the status bar to transparent globally
-  // SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-  //   statusBarColor: Colors.transparent, // Make the status bar transparent
-  //   statusBarIconBrightness: Brightness.dark, // Change the battery/time icons to light mode
-  // ));
-
-
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]).then((_) {
     runApp(const MyApp());

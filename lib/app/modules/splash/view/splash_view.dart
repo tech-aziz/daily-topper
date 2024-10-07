@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:daily_topper/app/modules/home/view/home_body_view.dart';
 import 'package:daily_topper/app/modules/home/view/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
