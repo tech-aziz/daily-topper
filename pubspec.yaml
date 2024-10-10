@@ -43,6 +43,9 @@ dependencies:
   auto_size_text: ^3.0.0
   # to use fonts from fonts.google.com
   google_fonts: ^6.1.0
+  # for launching a URL
+  # for update default icon
+  flutter_launcher_icons: ^0.13.1
   cached_network_image: ^3.4.1
 
 dev_dependencies:
@@ -97,3 +100,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  image_path: "assets/images/daily_topper.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: true
